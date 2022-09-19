@@ -10,14 +10,47 @@
 /*------------
     DEBUG
 --------------*/
-
+.debug header {
+    background-color: #add8e6;
+}
+.debug .header-top {
+    height: 50px;
+    background-color: #daa520;
+}
 /*------------
     COMMON
 --------------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
 /*------------
     HEADER
 --------------*/
+header{
+    padding: 17px 0;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+    border: 2px dashed black;
+}
+.logo{
+    width: 20%;
+}
+.main-nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /*------------
     MAIN
