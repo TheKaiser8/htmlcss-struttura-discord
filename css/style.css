@@ -35,8 +35,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 17px;
+    line-height: 50px;
+}
+.box{
     border: 2px dashed black;
+    padding: 0 17px;
 }
 .logo{
     width: 20%;
