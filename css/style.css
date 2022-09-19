@@ -33,6 +33,10 @@
 .debug .col-small {
     background-color: #ffc0cb;
 }
+.debug .huge-row {
+    height: 900px;
+    background-color: #228b22;
+}
 /*------------
     COMMON
 --------------*/
@@ -40,7 +44,9 @@
     max-width: 1200px;
     margin: auto;
 }
-
+.box {
+    border: 2px dashed black;
+}
 /*------------
     HEADER
 --------------*/
@@ -54,9 +60,9 @@ header {
     align-items: center;
     line-height: 50px;
 }
-.box {
-    border: 2px dashed black;
+.mini-box {
     padding: 0 17px;
+    border: 2px dashed black;
 }
 .logo {
     width: 20%;
