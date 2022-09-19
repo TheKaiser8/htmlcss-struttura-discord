@@ -37,6 +37,19 @@
     height: 900px;
     background-color: #228b22;
 }
+.debug footer {
+    background-color: #23272a;
+}
+.debug .footer-row {
+    height: 580px;
+}
+.debug .foot-col-big {
+    background-color: #f08080;
+}
+.debug .foot-small {
+    background-color: #20b2aa;
+}
+
 /*------------
     COMMON
 --------------*/
@@ -110,3 +123,27 @@ section:nth-child(even) {
 /*------------
     FOOTER
 --------------*/
+footer {
+    padding-top: 10px;
+}
+.footer-top {
+    max-width: 100vw;
+    /* display: flex;
+    justify-content: center; */
+    padding-bottom: 40px;
+    border-bottom: 1px solid #9a9a9a;
+}
+.footer-row {
+    display: flex;
+}
+.box.foot-col-big {
+    width: 24%;
+}
+.box.foot-small {
+    width: 76%;
+    display: flex;
+}
+.foot-col-small {
+    width: 25%;
+    border: 2px dashed white;
+}
